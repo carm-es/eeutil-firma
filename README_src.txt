@@ -1,10 +1,10 @@
-*************************************************************************************************
+﻿*************************************************************************************************
 * eeutil-firma-src.zip
 * EEUtil-firma se distribuye bajo la la licencia EUPL1.1.
 *************************************************************************************************
-Los componentes incluidos en eeutil-firma-src.zip se enumeran a continuaci�n:
+Los componentes incluidos en eeutil-firma-src.zip se enumeran a continuación:
 
-	- fuentes: Contiene el c�digo fuente de los m�dulos:
+	- fuentes: Contiene el código fuente de los módulos:
 		- eeutil-afirmaws-stub
 		- eeutil-comunes
 		- eeutil-firma
@@ -17,7 +17,7 @@ Los componentes incluidos en eeutil-firma-src.zip se enumeran a continuaci�n:
 		- eeutil-util
 		- load-tables
 
-	- lib: Librer�as que usa la aplicaci�n EEUtil-firma
+	- lib: Librerías que usa la aplicación EEUtil-firma
 	- resources
 		
 		- config
@@ -28,7 +28,7 @@ Los componentes incluidos en eeutil-firma-src.zip se enumeran a continuaci�n:
 			- log4j.properties
 			- textos.errores.firma.properties
 
-		- external-libs: librer�as externas y necesarias de instalar manualmente
+		- external-libs: librerís externas y necesarias de instalar manualmente
 			- afirma
 			- igae
 			- jodconverter
@@ -41,7 +41,7 @@ Los componentes incluidos en eeutil-firma-src.zip se enumeran a continuaci�n:
 			- 05-insert-admin-eeutil-misc.sql
 	
 		
-	- licenses: Contiene las licencias bajo las que se distribuyen las librer�as de las que depende EEUtil-firma.
+	- licenses: Contiene las licencias bajo las que se distribuyen las librerías de las que depende EEUtil-firma.
 
 	- LICENSE_EUPL_1.1.pdf: Licencia EUPL1.1, bajo la que se distribuye Inside.
 	
