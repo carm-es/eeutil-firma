@@ -35,6 +35,7 @@ public enum EnumeracionAlgoritmo {
   SHA_256("SHA-256"), @XmlEnumValue("SHA-384")
   SHA_384("SHA-384"), @XmlEnumValue("SHA-512")
   SHA_512("SHA-512");
+
   private final String value;
 
   EnumeracionAlgoritmo(String v) {
