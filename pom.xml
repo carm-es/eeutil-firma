@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
 
   <name>eeutil-firma</name>
+  <description>Componente de las Eeutils de la AGE, que implementa la firma</description>
   <inceptionYear>2020</inceptionYear>
 
   <licenses>
