@@ -214,11 +214,11 @@ public class MPTFirmaServiceImpl implements MPTFirmaService {
       return "";
     }
     StringBuffer out = new StringBuffer();
-    out.append(throwable + Layout.LINE_SEP);
+    out.append(throwable + "\n");
     StackTraceElement[] stackTraces = throwable.getStackTrace();
     for (int i = 0; i < stackTraces.length; i++) {
       StackTraceElement trace = stackTraces[i];
-      out.append("\tat " + trace + Layout.LINE_SEP);
+      out.append("\tat " + trace + "\n");
     }
     out.append(convertThrowable(throwable.getCause()));
     return out.toString();
