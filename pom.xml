@@ -4,7 +4,7 @@
   
   <groupId>es.carm.eeutil</groupId>
   <artifactId>firma-mvn-base-wrapper</artifactId>
-  <version>4.2.0-CARM.5-SNAPSHOT</version>
+  <version>4.2.0-CARM.6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>eeutil-firma</name>
