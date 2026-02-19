@@ -1,25 +1,26 @@
 /*
- * Copyright (C) 2012-13 MINHAP, Gobierno de España This program is licensed and may be used,
- * modified and redistributed under the terms of the European Public License (EUPL), either version
- * 1.1 or (at your option) any later version as soon as they are approved by the European
- * Commission. Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
- * either express or implied. See the License for the specific language governing permissions and
- * more details. You should have received a copy of the EUPL1.1 license along with this program; if
- * not, you may find it at http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
+ * Copyright (C) 2025, Gobierno de España This program is licensed and may be used, modified and
+ * redistributed under the terms of the European Public License (EUPL), either version 1.1 or (at
+ * your option) any later version as soon as they are approved by the European Commission. Unless
+ * required by applicable law or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+ * implied. See the License for the specific language governing permissions and more details. You
+ * should have received a copy of the EUPL1.1 license along with this program; if not, you may find
+ * it at http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
  */
 
 package es.mpt.dsic.inside.util.firma.model;
 
 import java.util.Arrays;
+
 import es.mpt.dsic.inside.ws.service.model.DatosEntradaFichero;
 
 
 
 public class PeticionFirmaFichero {
-  private static String DEFAULT_FORMATO_FIRMA = "CAdES";
-  private static String DEFAULT_MODO_FIRMA = "explicit";
-  private static String DEFAULT_ALGORITMO_FIRMA = "explicit";
+  private static final String DEFAULT_FORMATO_FIRMA = "XAdES";
+  private static final String DEFAULT_MODO_FIRMA = "implicit";
+  private static final String DEFAULT_ALGORITMO_FIRMA = "SHA256withRSA";
 
   private String formato = DEFAULT_FORMATO_FIRMA;
   private String modo = DEFAULT_MODO_FIRMA;
@@ -103,16 +104,16 @@ public class PeticionFirmaFichero {
 
   @Override
   public String toString() {
-    return "PeticionFirma [formato=" + formato + ", modo=" + modo + ", algoritmo=" + algoritmo
-        + "]";
+    return "PeticionFirmaFichero [formato=" + formato + ", modo=" + modo + ", algoritmo="
+        + algoritmo + "]";
   }
 
   public boolean verificaContenido() {
-    if (this.contenido == null || Arrays.toString(this.contenido).equals(""))
-      return false;
-    // return Pattern.matches("[A-Za-z0-9+/=]", this.contenido);
-    // return Base64.isBase64(this.contenido.getBytes());
-    return true;
+    return !(this.contenido == null || "".equals(Arrays.toString(this.contenido)));
+    /**
+     * return Pattern.matches("[A-Za-z0-9+/=]", this.contenido); //return
+     * Base64.isBase64(this.contenido.getBytes());
+     */
   }
 
 

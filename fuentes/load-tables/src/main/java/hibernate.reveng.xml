@@ -1,4 +1,4 @@
-<!-- Copyright (C) 2012-13 MINHAP, Gobierno de España
+<!-- Copyright (C) 2025, Gobierno de España
    This program is licensed and may be used, modified and redistributed under the terms
    of the European Public License (EUPL), either version 1.1 or (at your
    option) any later version as soon as they are approved by the European Commission.
@@ -9,7 +9,11 @@
    more details.
    You should have received a copy of the EUPL1.1 license
    along with this program; if not, you may find it at
-   http://joinup.ec.europa.eu/software/page/eupl/licence-eupl --> <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd"> 
-<hibernate-reverse-engineering> 
-    <table-filter match-catalog="eeutil_n" match-name="UnidadOrganica" /> 
+   http://joinup.ec.europa.eu/software/page/eupl/licence-eupl -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="eeutil_n" match-name="UnidadOrganica"/>
 </hibernate-reverse-engineering>

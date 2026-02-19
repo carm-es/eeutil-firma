@@ -1,0 +1,1 @@
+En el truststore.jks debería incluirse el/las partes públicas de los certificados ssl instalados en los servidores web a los que llamen los módulos de EEUTILS por https (protocolo seguro), bien sea entre ellos mismos o a otra aplicación instalada en un dominio distinto al de EEUTILS.
