@@ -75,6 +75,14 @@
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.graylog2</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
         <!-- 				<exclusion> -->
         <!-- 					<groupId>org.slf4j</groupId> -->
         <!-- 					<artifactId>slf4j-log4j12</artifactId> -->
@@ -93,6 +101,14 @@
         <exclusion>
           <artifactId>slf4j-api</artifactId>
           <groupId>org.slf4j</groupId>
+        </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.graylog2</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
         <exclusion>
           <groupId>stax</groupId>
