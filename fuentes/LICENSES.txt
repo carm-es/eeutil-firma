@@ -1,4 +1,4 @@
-﻿/****************************************************************************************
+/****************************************************************************************
 					LICENSES.TXT
 *****************************************************************************************/
 Los componentes incluidos en la distribución se enumeran a continuación. 
@@ -6,8 +6,7 @@ Todos ellos se distribuyen bajo la licencia EUPL 1.1
 
 	- eeutil-afirmaws-stub
 	- eeutil-comunes
-	- eeutil-firma
-	- eeutil-inside-stub
+	- eeutil-misc
 	- eeutil-model
 	- eeutil-mvn-base
 	- eeutil-pdf-conversion
@@ -15,4 +14,3 @@ Todos ellos se distribuyen bajo la licencia EUPL 1.1
 	- eeutil-services
 	- eeutil-util
 	- load-tables
-	
