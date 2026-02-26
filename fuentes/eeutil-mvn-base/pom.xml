@@ -8,7 +8,7 @@
     <relativePath>../..</relativePath>
   </parent>
   <groupId>es.gob.ad.gestdoc</groupId>
-  <artifactId>eeutil-mvn-base</artifactId>
+  <artifactId>eeutil-mvn-base-firma</artifactId>
   <packaging>pom</packaging>
   <description>Librerias del proyecto Eeutil</description>
   <!-- scm>
