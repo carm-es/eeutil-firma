@@ -168,19 +168,7 @@
       <artifactId>spring-security-taglibs</artifactId>
       <version>3.2.10.RELEASE</version>
     </dependency>
-    <!-- dependencia por vulnerabilidad -->
-    <dependency>
-      <groupId>org.apache.santuario</groupId>
-      <artifactId>xmlsec</artifactId>
-      <version>2.2.3</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>com.fasterxml.woodstox</groupId>
-          <artifactId>woodstox-core</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+
     <!-- envio de correos -->
     <!--		<dependency>-->
     <!--		    <groupId>javax.mail</groupId>-->
