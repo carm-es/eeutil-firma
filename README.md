@@ -3,7 +3,9 @@ Instalación y evolutivo de la versión distribuible de Eeutil-Firma.
 
 Se parte de la versión distribuible que se ofrece en el Área de descargas de la Suite Inside del Centro de Transferencia Tecnológica:
 
-https://administracionelectronica.gob.es/ctt/inside/descargas -> Versión distribuible (Código fuente) -> Distribuible Eeutil-firma v4.2.0 (noviembre 2018)
+* [https://administracionelectronica.gob.es/ctt/csvcreator/descargas](https://administracionelectronica.gob.es/ctt/csvcreator/descargas) -> Versión distribuible (Código fuente) -> Distribuible Eeutil-firma v6.8.2 (enero 2026)
+
+Este módulo permite principalmente firmar ficheros.
 
 Estos son los servicios de Inside que hacen uso de los servicios de eeutil-firma:
 
@@ -63,5 +65,5 @@ Definición de los campos según guía de la AGE:
 -SHA384withRSA
 -SHA512withRSA (recomendado)*
 
-* **cofirmarSiFirmado:** En caso de que lo que se envíe ya sea una firma, este parámetro sirve para decidir si se quiere confirmar (en cuyo caso deberá tomar valor true (1)) o contrafirmar(false (0)).
+* **cofirmarSiFirmado:** En caso de que lo que se envíe ya sea una firma, este parámetro sirve para decidir si se quiere cofirmar (en cuyo caso deberá tomar valor true (1)) o contrafirmar(false (0)).
 * **nodeToSign:** Parámetro para indicar el atributo id de un nodo de un xml a firmar.(Básicamente para la firma del expediente ENI.)
